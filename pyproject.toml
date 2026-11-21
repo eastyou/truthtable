@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "truthtable"
+version = "0.1.0"
+description = "真值表工具：解析布尔表达式，打印真值表并生成可打印练习纸"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "eastyou" }]
+keywords = ["education", "logic", "truth-table", "boolean", "worksheet", "printable"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+  "Topic :: Education",
+]
+
+[project.scripts]
+truthtable = "truthtable.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/eastyou/truthtable"
+Source = "https://github.com/eastyou/truthtable"
+
+[tool.setuptools]
+packages = ["truthtable"]

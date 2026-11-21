@@ -1,0 +1,12 @@
+# 基础逻辑门
+A and B
+A or B
+not A
+A xor B
+A -> B
+A <-> B
+# 优先级与括号
+A or B and C
+not (A and B)
+A -> B -> C
+A and B or C and not A
